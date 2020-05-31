@@ -1,5 +1,16 @@
 {
-  "extends": "@snowpack/app-scripts-vue",
-  "scripts": {},
-  "plugins": [["@snowpack/plugin-webpack"]]
+    "extends": "@snowpack/app-scripts-vue",
+    "scripts": {
+        "mount:public": "mount src/static --to /",
+        "build:scss": "sass $FILE"
+    },
+    "plugins": [
+        "@snowpack/plugin-webpack",
+        "@snowpack/plugin-vue"
+    ],
+    "devOptions": {
+        "port": 3000,
+        "out": "docs",
+        "fallback": "src/static/index.html"
+    }
 }
