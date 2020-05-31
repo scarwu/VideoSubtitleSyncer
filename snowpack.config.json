@@ -10,7 +10,6 @@
     ],
     "devOptions": {
         "port": 3000,
-        "out": "docs",
-        "fallback": "src/static/index.html"
+        "out": "docs"
     }
 }
