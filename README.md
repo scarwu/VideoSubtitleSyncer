@@ -1,33 +1,26 @@
 # Video Subtitle Syncer
 
-## Development
+> ✨ Bootstrapped with Create Snowpack App (CSA).
 
-### Install Env Tools
+## Available Scripts
 
-~~~
-sudo npm -g install gulp-cli yarn
-~~~
+### npm start
 
-### Install Packages
+Runs the app in the development mode.
+Open http://localhost:8080 to view it in the browser.
 
-~~~
-./setup.sh
-~~~
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-### Generate Folder for Dev
+### npm test
 
-web root path please set to ./src/boot
+**⚠️ NOTE:** Vue 3 testing support is still in progress. This template does not ship with a test runner.
 
-~~~
-gulp # build development mode with live reload
+### npm run build
 
-# or
+Builds the app for production to the `build/` folder.
+It correctly bundles Vue in production mode and optimizes the build for the best performance.
 
-gulp prepare # build development mode
-~~~
+### Q: What about Eject?
 
-## Deploy Github Page
-
-~~~
-gulp release # build production mode
-~~~
+No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
